@@ -1,9 +1,9 @@
 // Google Fonts
-@import url(//fonts.googleapis.com/css?family=Nanum+Gothic:400,700|Roboto:400,700);
-
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@font-face { font-family: 'HSBombaram'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/HSBombaram.woff') format('woff'); font-weight: normal; font-style: normal; }
 // Typography
-$base-font-family: 'Roboto', 'Nanum Gothic', sans-serif; // $helvetica;
-$heading-font-family: 'Roboto', 'Nanum Gothic', sans-serif; // $base-font-family;
+$base-font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; // $helvetica;
+$heading-font-family: 'HSBombaram', sans-serif; // $base-font-family;
 
 // Font Sizes
 $base-font-size: $em-base; // 16px
@@ -40,7 +40,7 @@ $bc-red: #bc0000;
 // Font Colors
 $base-background-color: #fff;
 $base-font-color: $dark-gray;
-$action-color: $purple;
+$action-color: $dark-gray;
 $highlight-color: tint($action-color, 33%);
 
 // Border

@@ -9,12 +9,12 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Chichi Blog
-subtitle: "배우고 싶고 해보고 싶은 게 많은\n 치치의 개발 블로그입니다."
+title: 개발자 치치
+subtitle: "재미있게 열심히 살자"
 email: chiabi88@gmail.com
-name: chichi
+name: 치치
 description: >
-  [상태] 프론트엔드 개발 공부중입니다...
+  프론트엔드 개발 공부중입니다...
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
@@ -103,7 +103,7 @@ social:
     username:
     url:
     desc: Add me to your Circles
-    share: true
+    share: false
 
   - name: YouTube
     icon: youtube
@@ -173,7 +173,7 @@ social:
     username:
     url:
     desc: Share to Reddit
-    share: true
+    share: false
 
   - name: "Hacker News"
     icon: hacker-news

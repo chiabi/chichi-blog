@@ -39,7 +39,7 @@ pre code.hljs {
 }
 
 .page-divider {
-	$divider-color: $light-gray;
+	$divider-color: $dark-gray;
   display: block;
   width: 50%;
   margin-left: auto;
@@ -50,11 +50,13 @@ pre code.hljs {
     top: -9px;
     display: block;
     background: $divider-color;
-    width: 18px;
+    width: 1px;
     height: 18px;
     margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
+		margin-right: auto;
+		transform: rotate(25deg);
+		-webkit-transform: rotate(25deg);
+		z-index: 2;
   }
   .two {
     position: relative;
@@ -65,7 +67,7 @@ pre code.hljs {
     height: 16px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 50%;
+		z-index: 1;
   }
 }
 
@@ -136,9 +138,10 @@ pre code.hljs {
     }
     span {
 			display: inline-block;
-			font-size: 1.25em;
+			font-size: 1.8em;
 			font-weight: bold;
-			padding: 0.8em 0;
+			font-family: $heading-font-family;
+			padding: 0.35em 0;
 			@include media ($tablet) {
 				line-height: 1.5em;
 			}
@@ -239,15 +242,17 @@ pre code.hljs {
     }
 	}
 	.site-header-container {
-		color: $white;
-		text-shadow: 0 2px 1px rgba(0,0,0,0.33);
-		background-color: $highlight-color;
+		// background-color: $highlight-color;
 		.site-header{
+			font-family: $heading-font-family;
+			font-style: italic;
 			.title {
 				font-size: modular-scale(6);
+				@include media ($tablet) {
+					font-size: modular-scale(10);
+				}
 			}
 			.subtitle {
-				// font-style: italic;
 				font-size: modular-scale(1);
 			}
 		}
@@ -359,8 +364,8 @@ pre code.hljs {
 	$link-color: $white;
 	padding: 1em 1em 2em 1em;
 	background-color: $highlight-color;
-	background-image: linear-gradient( 45deg, $blue, $highlight-color );
-	background-image: linear-gradient( to left top, $blue, $highlight-color );
+	background-image: linear-gradient( 45deg, $blue, $dark-gray);
+	background-image: linear-gradient( to left top, $blue, $dark-gray);
 	color: $white;
 	a {
 	  color: $link-color;
