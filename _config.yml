@@ -44,7 +44,7 @@ highlightjs_theme: "monokai-sublime"
 disqus_shortname: chichi-blog
 
 # Google analytics
-# ga_tracking_id: "UA-XXXX-1"
+ga_tracking_id: "UA-115881477-1"
 
 # Category descriptions (for archive pages)
 descriptions:
