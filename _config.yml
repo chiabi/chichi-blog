@@ -196,3 +196,5 @@ protocols:
     os_repo: "https://chiabi.github.io/chichi-blog"
     os_rcs_type: "git"
     os_src: "git@github.com:chiabi/chichi-blog.git"
+    
+gems: [jemoji]
