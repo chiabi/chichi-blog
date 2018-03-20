@@ -261,6 +261,11 @@ pre code.hljs {
 		display: block;
 		margin: auto;
 		width: 90%;
+		&.emoji {
+			display: inline-block;
+			vertical-align: middle;
+			width: auto;
+		}
 	}
 	/*
 	*	Posts
